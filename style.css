@@ -60,11 +60,11 @@ footer{
 
 @media (min-width:375px) and (max-width:768px){
     aside{
-        min-width: 100%;
+        width: 100%;
         display:block;
     }
     main{
-        min-width:100%;
+        width:100%;
         display: block;
     }
 }
