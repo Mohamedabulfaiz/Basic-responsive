@@ -22,8 +22,7 @@
 
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
-    padding-right: 30px;
+    font-size: 1.3rem;
 }
 aside{
     display: inline-block;
@@ -34,7 +33,6 @@ aside{
 main{
     display: inline-block;
     width:79%;
-    padding: 10px;
 }
 article{
     margin-top: 30px;
@@ -58,6 +56,15 @@ footer{
     justify-content: center;
 }
 
+#mobile-menu{
+    position: fixed;
+    right: 0;
+    background-color: aqua;
+    height: 100%;
+    width: 30%;
+    display: none;
+}
+
 @media (min-width:375px) and (max-width:768px){
     aside{
         width: 100%;
@@ -67,4 +74,18 @@ footer{
         width:100%;
         display: block;
     }
+    #mobile-menu{
+        display: block;
+    }
+    #primary-menu{
+        display: none;
+        position: fixed;
+        right: 0;
+        background-color: rgb(14, 230, 111);
+        height: 100%;
+        width: 30%;
+    }
+
 }
+
+
